@@ -1,0 +1,107 @@
+.amenity-card img {
+    width: 100%;
+    height: 200px; /* Increased height */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.amenity-tab-content {
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    padding: 25px;
+    margin-top: 25px;
+    background-color: #fff;
+}
+
+.amenity-title {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.amenity-price {
+    font-size: 1.2rem;
+    color: #2ecc71;
+    margin-bottom: 15px;
+}
+
+.amenity-description {
+    margin-bottom: 15px;
+}
+
+.attendees-list {
+    margin-bottom: 20px;
+}
+
+.attendee-item {
+    margin-bottom: 5px;
+}
+
+.pax-input {
+    width: 60px;
+    margin-top: 5px;
+}
+
+.amenity-price-total {
+    font-weight: bold;
+    color: #28a745;
+    margin-top: 10px;
+}
+
+.reserved-dates {
+    background-color: #fff;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.nav-tabs .nav-link {
+    color: #6c757d;
+    border: none;
+    padding: 12px 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-tabs .nav-link.active {
+    color: #2ecc71;
+    border-bottom: 3px solid #2ecc71;
+    font-weight: 600;
+}
+
+.form-control {
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.btn-success {
+    background-color: #2ecc71;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #27ae60;
+}
+
+/* Cart section styling */
+#cart {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.section-title {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e9ecef;
+}

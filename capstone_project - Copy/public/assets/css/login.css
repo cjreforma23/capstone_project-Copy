@@ -1,0 +1,132 @@
+body {
+    background: url('../assets/images/loginbg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.login-card h1 {
+    color: white;
+    font-weight: 600;
+}
+
+.login-card p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.form-label {
+    color: white;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-primary {
+    background: #007bff;
+    border: none;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+/* OTP Input Styles */
+.otp-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.otp-input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.otp-input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Modal Styles */
+.modal-content {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modal-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.login-card .text-white {
+    color: #fff !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.alert {
+    color: #212529;
+}
+
+.modal-title {
+    color: #212529;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    .col-md-4 {
+        width: 100%;
+    }
+    .modal-dialog {
+        max-width: 90%;
+    }
+}
